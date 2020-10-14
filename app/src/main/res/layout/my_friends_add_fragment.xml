@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#5e4391">
+    <TextView
+
+        android:textStyle="italic"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20sp"
+        android:text=" ''Teman \nBaikmu''"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"/>
+    <TextView
+
+        android:textStyle="italic"
+        android:textColor="#E2E0E0"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="14sp"
+        android:text="Allah menciptakan kamu dari seorang laki-laki \ndan seorang perempuan dan menjadikan \nsupaya kamu saling kenal-mengenal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="24dp"
+            android:padding="27dp"
+            android:background="@drawable/bg_tambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama"
+                android:textColorHint="#CCCCCC"
+                android:textColor="#FFFFFF"
+                android:inputType="text"
+                android:imeOptions="actionDone"/>
+            <Spinner
+                android:layout_marginTop="16dp"
+                android:id="@+id/spinnerGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:entries="@array/gender_list"/>
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textColorHint="#CCCCCC"
+                android:textColor="#FFFFFF"
+                android:inputType="textEmailAddress"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:id="@+id/edtTelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="Telp."
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/edtAddress"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:hint="Alamat"
+                android:textColorHint="#CCCCCC"
+                android:textColor="#FFFFFF"
+                android:inputType="textMultiLine"
+                android:gravity="top"
+                android:imeOptions="actionDone"/>
+            <Button
+                android:background="@drawable/btn_simpan"
+                android:id="@+id/btnSave"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Simpan"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
