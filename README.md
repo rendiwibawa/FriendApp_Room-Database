@@ -46,6 +46,6 @@ Untuk menampilkan data list pada RecyclerView, setidaknya ada 3 hal yang perlu d
 ## DONE
 ![Alt text](https://github.com/rendiwibawa/FriendApp_Room-Database/blob/master/SS%20Room/3ss.jpeg)
 
-## SEMOGA BERMANFAAT :)
+# SEMOGA BERMANFAAT :)
 
 
