@@ -4,12 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <LinearLayout
-        android:background="@drawable/header"
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
-
-        />
+  
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
