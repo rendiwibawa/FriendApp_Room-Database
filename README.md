@@ -39,9 +39,13 @@ Untuk menampilkan data list pada RecyclerView, setidaknya ada 3 hal yang perlu d
 - [x] dan menampilkan data list pada RecyclerView.
 
 # Itulah konsep penggunaan database lokal atau ROOM dan inilah hasil dari Praktikum kali ini :)
+## Recycleview
+![Alt text](https://github.com/rendiwibawa/FriendApp_Room-Database/blob/master/SS%20Room/1ss.jpeg)
+## Add Data / Form
+![Alt text](https://github.com/rendiwibawa/FriendApp_Room-Database/blob/master/SS%20Room/2ss.jpeg)
+## DONE
+![Alt text](https://github.com/rendiwibawa/FriendApp_Room-Database/blob/master/SS%20Room/3ss.jpeg)
 
-![Alt text]()
-![Alt text]()
-![Alt text]()
+## SEMOGA BERMANFAAT :)
 
 
