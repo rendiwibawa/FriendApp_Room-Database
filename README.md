@@ -1,5 +1,5 @@
 # FriendApp_Room-Database
-> ROM adalah singkatan dari Read Only Memory, dalam kasus Smartphone Android ROM ini menrujuk kepada media penyimpanan internal (Internal Storage) dimana firmware dan aplikasi bawaan tersimpan. ...
+> ROM adalah singkatan dari Read Only Memory, dalam kasus Smartphone Android ROM ini menrujuk kepada media penyimpanan internal (Internal Storage) dimana firmware dan aplikasi bawaan tersimpan. ....
 
 ## Gimana Prosesnya 
 
